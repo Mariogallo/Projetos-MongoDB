@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "610e9bf8e409c75665077251"
+  },
+  "date": {
+    "$date": "2018-03-21T00:00:00Z"
+  },
+  "title": "Partiu viagem",
+  "body": "Vou viajar para São Paulo. Abraços!",
+  "author": {
+    "_id": {
+      "$oid": "610e9bf8e409c7566507724e"
+    },
+    "name": "Maria Brown"
+  },
+  "comments": [
+    {
+      "text": "Boa viagem mano!",
+      "date": {
+        "$date": "2018-03-21T00:00:00Z"
+      },
+      "author": {
+        "_id": {
+          "$oid": "610e9bf8e409c7566507724f"
+        },
+        "name": "Alex Green"
+      }
+    },
+    {
+      "text": "Aproveite",
+      "date": {
+        "$date": "2018-03-22T00:00:00Z"
+      },
+      "author": {
+        "_id": {
+          "$oid": "610e9bf8e409c75665077250"
+        },
+        "name": "Bob Grey"
+      }
+    }
+  ],
+  "_class": "com.nelioalves.workshopmongo.domain.Post"
+},{
+  "_id": {
+    "$oid": "610e9bf8e409c75665077252"
+  },
+  "date": {
+    "$date": "2018-03-23T00:00:00Z"
+  },
+  "title": "Bom dia",
+  "body": "Acordei feliz hoje!",
+  "author": {
+    "_id": {
+      "$oid": "610e9bf8e409c7566507724e"
+    },
+    "name": "Maria Brown"
+  },
+  "comments": [
+    {
+      "text": "Tenha um ótimo dia!",
+      "date": {
+        "$date": "2018-03-23T00:00:00Z"
+      },
+      "author": {
+        "_id": {
+          "$oid": "610e9bf8e409c7566507724f"
+        },
+        "name": "Alex Green"
+      }
+    }
+  ],
+  "_class": "com.nelioalves.workshopmongo.domain.Post"
+}]

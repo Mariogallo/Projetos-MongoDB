@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "60ce2621c22e0f1886d273a9"
+  },
+  "codigo": "01",
+  "descricao": "Caneta"
+},{
+  "_id": {
+    "$oid": "60ce269dc22e0f1886d273aa"
+  },
+  "codigo": "02",
+  "descricao": "lapis",
+  "cor": "vermelha"
+},{
+  "_id": {
+    "$oid": "60ce26f5c22e0f1886d273ab"
+  },
+  "codigo": "03",
+  "cor": "azul"
+}]

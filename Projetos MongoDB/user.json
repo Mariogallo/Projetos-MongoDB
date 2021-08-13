@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "610e9bf8e409c7566507724e"
+  },
+  "name": "Maria Brown",
+  "email": "maria@gmail.com",
+  "posts": [
+    {
+      "$ref": "post",
+      "$id": {
+        "$oid": "610e9bf8e409c75665077251"
+      }
+    },
+    {
+      "$ref": "post",
+      "$id": {
+        "$oid": "610e9bf8e409c75665077252"
+      }
+    }
+  ],
+  "_class": "com.nelioalves.workshopmongo.domain.User"
+},{
+  "_id": {
+    "$oid": "610e9bf8e409c7566507724f"
+  },
+  "name": "Alex Green",
+  "email": "alex@gmail.com",
+  "posts": [],
+  "_class": "com.nelioalves.workshopmongo.domain.User"
+},{
+  "_id": {
+    "$oid": "610e9bf8e409c75665077250"
+  },
+  "name": "Bob Grey",
+  "email": "bob@gmail.com",
+  "posts": [],
+  "_class": "com.nelioalves.workshopmongo.domain.User"
+},{
+  "_id": {
+    "$oid": "61165d1c2f269779387d43af"
+  },
+  "name": "João da Silva",
+  "email": "joao@gmail.com",
+  "posts": [],
+  "_class": "com.nelioalves.workshopmongo.domain.User"
+}]
